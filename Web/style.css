@@ -1,0 +1,45 @@
+body {background-color : #FFFAF0}
+
+.panel ul{
+	list-style-type: none;
+}
+.panel ul li{
+	padding: 10 0 10 0;
+}
+p, h5{
+	text-align: center;
+}
+
+button.black, .button.black{
+	background-color: #222222;
+	border-color: #333333;
+	color: #FFFFFF; 
+}
+button.black:hover, button.black:focus, .button.black:hover, .button.black:focus {
+	background-color: #323232;
+}
+button.black:hover, button.black:focus, .button.black:hover, .button.black:focus {
+color: #FFFFFF;
+}
+
+
+button.rouge, .button.rouge{
+	background-color: #B22222;
+	border-color: #333333;
+	color: #FFFFFF; 
+}
+button.rouge:hover, button.rouge:focus, .button.rouge:hover, .button.rouge:focus {
+	background-color: #DC143C;
+}
+button.rouge:hover, button.rouge:focus, .button.rouge:hover, .button.rouge:focus {
+color: #FFFFFF;
+}
+
+#top{
+	width: 100%;
+	height: 33%;
+}
+
+#scroll{
+	overflow-x: scroll;
+}
